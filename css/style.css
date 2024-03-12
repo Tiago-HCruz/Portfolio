@@ -9536,7 +9536,8 @@ button.bg-dark:focus {
 .text-white-marg {
   color: #fff !important;
   font-size: calc(0.8rem + 0.3vw);
-  text-shadow: 3px 3px 5px black;
+  text-shadow: #000 0px 0 3px;
+  text-align: center;
 }
 
 .text-primary {
