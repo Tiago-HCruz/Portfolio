@@ -7517,9 +7517,9 @@ button.bg-dark:focus {
   white-space: normal;
 }
 
-/*.shadow-sm {
+.shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}*/
+}
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -9830,15 +9830,16 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding: 25px 10px;
-  color: #343a40;
-  font-weight: 500;
+  padding: 25px 45px;
+  color: #384a6080;
+  font-weight: 800;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #384a60;
+  /*-webkit-text-stroke: 0.8px #384a60;*/
 }
 
 @media (max-width: 991.98px) {
